@@ -86,7 +86,7 @@ def get_info_total_points():
             print(f"You have selected {current_player}, who plays for the {player_dict[current_player]}.")
             print()
 
-            final_season_input = input(f"Starting from the current NBA season, enter the season that you think {current_player} will retire (just a four digit year, the year the NBA season ends): ")
+            final_season_input = input(f"Starting from the 2023 NBA season, enter the season that you think {current_player} will retire (just a four digit year, the year the NBA season ends): ")
             print()
 
             if not final_season_input.isdigit():
